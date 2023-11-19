@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('DSC06842.JPG') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      position: relative;
+    }
+
+    #app {
+      overflow: hidden;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+    }
+    
+    #app h1 {
+      font-size: 5vw; /* Responsive font size */
+      line-height: 1.2;
+      color: #ffffff;
+    }
+
+    .ganesh-img {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .ganesh-img img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover; /* Maintain aspect ratio while covering the container */
+      display: block;
+      margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .meta-link,
+    .meta-link2 {
+      align-items: center;
+      backdrop-filter: blur(3px);
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      display: inline-flex;
+      gap: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 600ms, border-color 600ms;
+      margin-top: 10px;
+    }
+
+    .meta-link:hover,
+    .meta-link2:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .meta-link > i,
+    .meta-link2 > i,
+    .meta-link > span,
+    .meta-link2 > span {
+      height: 20px;
+      line-height: 20px;
+    }
+
+    .meta-link > span,
+    .meta-link2 > span {
+      color: white;
+      font-family: "Rubik", sans-serif;
+      transition: color 600ms;
+    }
+
+    .additional-text {
+      font-size: 4vw; /* Responsive font size */
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Great Vibes', cursive;
+      margin: 220px 0 10px; /* Adjust the spacing */
+      color: #ffffff;
+    }
+
+    .bottom-text {
+      font-size: 3vw; /* Responsive font size */
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      color: #ffffff;
+    }
+
+    /* Media Query for Responsive Design */
+    @media screen and (max-width: 768px) {
+      #app h1 {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        color: #ffffff;
+      }
+      .ganesh-img img {
+        width: 20vw; /* Adjust image size for smaller screens */
+        height: 20vw;
+      }
+      .additional-text {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        margin-top: 30vw; /* Adjust the spacing for smaller screens */
+        color: #ffffff;
+      }
+      .bottom-text {
+        font-size: 6vw; /* Adjust font size for smaller screens */
+      }
+    }
+  </style>
+  <title>❤❤ Alok & Shivani ❤❤</title>
+</head>
+<body>
+
+  <div id="app">
+    <div id="hero">
+      <div class="ganesh-img">
+        <img src="ganesh.jpg" alt="Ganesh Image">
+      </div>
+      <div class="additional-text">
+        <p>वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>
+        निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</p>
+      </div>
+      <a id="source-link" class="meta-link" href="#" target="_blank">
+        <h1>Groom</h1>
+      </a>
+    
+      <a id="source-link" class="meta-link" href="" target="_blank">
+        <h1>&nbsp;Bride &nbsp;</h1>
+      </a>
+      <div class="bottom-text">
+        <h1>❤❤ Alok & Shivani ❤❤</h1>
+      </div>
+    </div>
+  </div>
+
+  <audio autoplay loop unmuted>
+    <source src="Vakratunda_Mahakaya.ogg" type="audio/ogg">
+    <source src="Vakratunda_Mahakaya.mp3" type="audio/mpeg">
+    <source src="Vakratunda_Mahakaya.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+
+</body>
+</html>
