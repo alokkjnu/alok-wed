@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Yesteryear&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('DSC06842.JPG') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      position: relative;
+    }
+
+    #app {
+      overflow: hidden;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+    }
+    
+    #app h1 {
+      font-size: 5vw; /* Responsive font size */
+      line-height: 1.2;
+      color: #ffffff;
+    }
+
+    .ganesh-img {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .ganesh-img img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover; /* Maintain aspect ratio while covering the container */
+      display: block;
+      margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .meta-link,
+    .meta-link2 {
+      align-items: center;
+      backdrop-filter: blur(3px);
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      display: inline-flex;
+      gap: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 600ms, border-color 600ms;
+      margin-top: 10px;
+    }
+
+    .meta-link:hover,
+    .meta-link2:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .meta-link > i,
+    .meta-link2 > i,
+    .meta-link > span,
+    .meta-link2 > span {
+      height: 20px;
+      line-height: 20px;
+    }
+
+    .meta-link > span,
+    .meta-link2 > span {
+      color: white;
+      font-family: "Rubik", sans-serif;
+      transition: color 600ms;
+    }
+    p {
+        color: #FFFFFF;
+    }
+
+    .additional-text {
+      font-size: 4vw; /* Responsive font size */
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Great Vibes', cursive;
+      margin: 220px 0 10px; /* Adjust the spacing */
+      color: #ffffff;
+    }
+
+    .bottom-text {
+      font-size: 3vw; /* Responsive font size */
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      color: #ffffff;
+    }
+    img {
+        max-width: 100%;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+    img-cls{
+        width: 100%;
+        height: 70px;
+    }
+    .slide-img {
+    width: 100%;
+    height: 600px; /* Set the initial height of the image carousel */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.8s ease-in-out; /* Add a smooth transition effect */
+    }
+
+    /* Media Query for Responsive Design */
+    @media screen and (max-width: 768px) {
+      #app h1 {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        color: #ffffff;
+      }
+      .ganesh-img img {
+        width: 20vw; /* Adjust image size for smaller screens */
+        height: 20vw;
+      }
+      .additional-text {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        margin-top: 30vw; /* Adjust the spacing for smaller screens */
+        color: #ffffff;
+      }
+      .bottom-text {
+        font-size: 6vw; /* Adjust font size for smaller screens */
+      }
+      .slide-img {
+        height: 500px; /* Adjust the height for smaller screens */
+    }
+    }
+  </style>
+  <title>❤❤ Alok & Shivani ❤❤</title>
+</head>
+<body>
+
+  <div id="app">
+    <div class="bottom-text">
+        <h3>
+            <div class="date-counter">Countdown: <span id="countdown"></span></div>
+        </h3>
+        <h1>
+            Alok & Shivani
+        </h1>
+        <h2>
+            We are getting married!
+        </h3>
+        <h4>Save the date 1st February 2024</h4>
+    </div>
+    <div class="slide-img">
+
+    </div>
+    <div class="bottom-text">
+        <h1>❤❤Alok Weds Shivani❤❤</h1>
+        <img class="img-cls" src="./weeding_flower.png" alt="Wedding Image">
+    </div>
+    <div class="bottom-text meta-link">
+        
+    </div>
+    <div class="bottom-text meta-link">
+        <img src="./_DSC6880.JPG" alt="Wedding Image">
+    </div>
+    <div class="bottom-text meta-link">
+        <p>Tilak Ceremony : 27th January, 2024</p>
+        <a href="">
+            <p>Location: Chak Mukund Urf Bartar, Nonahara, Ghazipur, U.P. 233303</p>
+        </a>
+        
+    </div>
+    <div class="bottom-text meta-link">
+        <img src="./haldi-new.jpg" alt="Wedding Image">
+    </div>
+    <div class="bottom-text meta-link">
+        <p>Haldi Ceremony : 28th January, 2024</p>
+        <a href="">
+            <p>Location: Chak Mukund Urf Bartar, Nonahara, Ghazipur, U.P. 233303</p>
+        </a>
+        
+    </div>
+  </div>
+
+  <audio autoplay loop unmuted>
+    <source src="Vakratunda_Mahakaya.ogg" type="audio/ogg">
+    <source src="Vakratunda_Mahakaya.mp3" type="audio/mpeg">
+    <source src="Vakratunda_Mahakaya.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+  <script>
+    // Countdown script
+    const weddingDate = new Date('February 01, 2024 00:00:00 GMT+0000').getTime();
+
+    const updateCountdown = () => {
+      const now = new Date().getTime();
+      const distance = weddingDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+      if (distance < 0) {
+        document.getElementById('countdown').innerHTML = 'The wedding has started!';
+      }
+    };
+
+    setInterval(updateCountdown, 1000);
+
+
+    let currentImageIndex = 0;
+    const images = [
+        './DSC06155.jpg',  // Replace with the actual image paths
+        './DSC06513.jpg',
+        './DSC06618.jpg',
+        // Add more images as needed
+    ];
+
+    function showNextImage() {
+        const slideImg = document.querySelector('.slide-img');
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        slideImg.style.backgroundImage = `url('${images[currentImageIndex]}')`;
+    }
+
+    // Auto-slide the images every 5 seconds (adjust the time as needed)
+    setInterval(showNextImage, 3000);
+
+    // Initial image setup
+    document.addEventListener('DOMContentLoaded', () => {
+        showNextImage();
+    });
+  </script>
+
+</body>
+</html>
