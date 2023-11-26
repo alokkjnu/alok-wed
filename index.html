@@ -167,6 +167,19 @@
     <source src="Vakratunda_Mahakaya.mp3" type="audio/mp3">
     Your browser does not support the audio tag.
   </audio>
+  <script>
+    document.addEventListener("keydown", function (event){
+    if (event.ctrlKey){
+       event.preventDefault();
+    }
+    if(event.keyCode == 123){
+       event.preventDefault();
+    }
+    });
+    document.addEventListener('contextmenu', 
+        event => event.preventDefault()
+    );
+  </script>
 
 </body>
 </html>
