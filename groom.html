@@ -119,7 +119,7 @@
     }
     .slide-img {
     width: 100%;
-    height: 600px; /* Set the initial height of the image carousel */
+    height: 60vw;  /* Set the initial height of the image carousel */
     background-size: cover;
     background-position: center;
     transition: background-image 0.8s ease-in-out; /* Add a smooth transition effect */
@@ -144,7 +144,7 @@
         font-size: 6vw; /* Adjust font size for smaller screens */
       }
       .slide-img {
-        height: 500px; /* Adjust the height for smaller screens */
+      height: 85vw; /* Adjust the height for smaller screens using vw unit */
     }
     }
   </style>
@@ -211,7 +211,7 @@
       </a>
     </div>
     <div class="bottom-text meta-link">
-        <img src="https://drive.google.com/uc?export=view&id=1T-NFykUH-1QmhberubH86sXGtRsj9rie" alt="Wedding Image">
+        <img src="https://drive.google.com/uc?export=view&id=1a09eP3tXf4SFQVjRpM3wm9WniSw3c-C6" alt="Wedding Image">
     </div><br>
     <div class="bottom-text meta-link">
         <h4>
@@ -260,12 +260,12 @@
 
     let currentImageIndex = 0;
     const images = [
-        'https://drive.google.com/uc?export=view&id=1xCvv9wj9BZC-gmw1ng0dIH2onrbM4_TM',
-        'https://drive.google.com/uc?export=view&id=1dbGl18cinF4JlJPyLn3qyqOW83rS97iY',
-        'https://drive.google.com/uc?export=view&id=1iUNj_SYtyzxx7-AFeQltuzX7CzLNcbyY',
-        'https://drive.google.com/uc?export=view&id=1QDjxHCpAqytoOd5jS08VNMfzJdaLhOMb',  // Replace with the actual image paths
-        'https://drive.google.com/uc?export=view&id=1caIMXR_9TjBHFTZI_s60K3ytmE3UuUDy',
-        'https://drive.google.com/uc?export=view&id=154mtXrNlfW0gIn8u3CRZxq0luBi_fTim',
+        'https://drive.google.com/uc?export=view&id=1G_z2c4xhxJc7kjrDbkk6BWttLubprI-n',
+        'https://drive.google.com/uc?export=view&id=1sx8o1rMfC7g-qLMqcysA2hThYXMeI316',
+        'https://drive.google.com/uc?export=view&id=1YbTE1ZI9JOrbZ6U84WSHSnjYziaBkpKJ',
+        'https://drive.google.com/uc?export=view&id=11gYtIszqGe_wb4WE4l_sF2uo3EhUKoVM',  // Replace with the actual image paths
+        'https://drive.google.com/uc?export=view&id=17R8e3LyDgQdCdvgXVDnfj1Yb1CHzsdgb',
+        'https://drive.google.com/uc?export=view&id=1JaS_nk5-YvqcSUy1_U1euoztgcGr2yT8',
         // Add more images as needed
     ];
 
@@ -279,20 +279,20 @@
     setInterval(showNextImage, 3000);
 
     // Initial image setup
-    document.addEventListener('DOMContentLoaded', () => {
-        showNextImage();
-    });
-    document.addEventListener("keydown", function (event){
-    if (event.ctrlKey){
-       event.preventDefault();
-    }
-    if(event.keyCode == 123){
-       event.preventDefault();
-    }
-    });
-    document.addEventListener('contextmenu', 
-        event => event.preventDefault()
-    );
+    // document.addEventListener('DOMContentLoaded', () => {
+    //     showNextImage();
+    // });
+    // document.addEventListener("keydown", function (event){
+    // if (event.ctrlKey){
+    //    event.preventDefault();
+    // }
+    // if(event.keyCode == 123){
+    //    event.preventDefault();
+    // }
+    // });
+    // document.addEventListener('contextmenu', 
+    //     event => event.preventDefault()
+    // );
   </script>
 
 </body>
